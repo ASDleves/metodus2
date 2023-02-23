@@ -2,8 +2,8 @@ package metodusgyak;
 
 public class MetodusGyak {
     public static void main(String[] args) {
-        elso10szamosszeg();
-        
+
+        kiir("Az első 10 szám összege: "+osszead(elso10szamosszeg(), 0));
     }
     
     
