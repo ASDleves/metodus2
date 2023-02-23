@@ -2,8 +2,14 @@ package metodusgyak;
 
 public class MetodusGyak {
     public static void main(String[] args) {
-
+        int szam1, szam2, szam3, szam4;
+        szam1 = 4;
+        szam2 = 7;
+        szam3= 8;
+        szam4 = 0;
         kiir("Az első 10 szám összege: "+osszead(elso10szamosszeg(), 0));
+        kiir("A "+szam1+"+"+szam2+"+"+szam3+"+"+szam4+"összege = "+osszead(szam1,
+                szam2)+osszead(szam3, szam4));
     }
     
     
