@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package metodusgyak;
 
-/**
- *
- * @author Ricsi
- */
 public class MetodusGyak {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        elso10szamosszeg();
+        
     }
     
+    
+
+    private static int elso10szamosszeg() {
+        int osszeg = 0;
+        for (int i = 0; i < 10; i++) {
+            osszeg += i;
+        }
+        return osszeg;
+        //kiir("Az első 10 szám összege:" + osszeg);
+    }
+    private static int osszead(int a, int b){
+        //System.out.printf("%d + %d = %d\n", a, b, a+b);
+        return a+b;
+    }
+
+    private static void kiir(String szoveg) {
+        System.out.println(szoveg);
+    }
 }
